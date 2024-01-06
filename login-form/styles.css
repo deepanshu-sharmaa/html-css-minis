@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(60, 181, 140);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-card{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.top{
+    background-color: rgb(33, 149, 149);
+    color: #fff;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.rest{
+    padding: 20px;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 149, 149);
+    color: white;
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.inp{
+    height: 45px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.5);
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 300;
+    color: darkslategray;
+}
+
+.inp:focus{
+    outline: none;
+    box-shadow: 0 0 7px rgba(33, 149, 149, 0.8) inset;
+}
+
+.forgot{
+    color: rgb(33, 149, 149);
+    text-decoration: none;
+    display: block;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgb(33, 149, 149);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover{
+    background-color: rgb(27, 121, 121);
+}
+
+.last-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sign-up{
+    color: rgb(33, 149, 149);
+}
